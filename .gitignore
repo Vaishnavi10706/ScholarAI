@@ -1,31 +1,22 @@
-
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
 venv/
 .venv/
-.pytest_cache/
 
-# Environment variables and secrets
+# Node
+node_modules/
+dist/
+
+# Environment
 .env
 .env.*
 !.env.example
 
-# ChromaDB
-chroma_db/
+# Vector database
 chroma_data/
+chroma_db/
 
-# React / Node
-node_modules/
-dist/
-build/
-.env.local
-
-# Editor
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
+# Uploaded research papers
+uploads/*
+!uploads/.gitkeep
